@@ -1,0 +1,143 @@
+:root{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    --green:#1A4D2E;
+}
+
+h1,h3,h4{
+    margin: 0.2rem;
+   
+}
+p{
+    margin: 0.1rem;
+   
+}
+
+.main{
+    padding: 0.5rem 2rem;
+    box-shadow: 1px 3px 4px rgba(0,0,0,0.8);
+    max-width: 900px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     color:  var(--green);
+}
+.header img{
+    width: 5rem;
+    height: 5rem;
+    margin: 20px;
+}
+.college{
+    text-align: center;
+}
+.grade{
+    margin-top: 2.5rem;
+}
+.details{
+    padding: 0 4rem; /*to match with emblem*/
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.item .colon1{
+   margin-left: 6rem;
+}
+.item .colon2 {
+    margin-left: 2rem;
+}
+.item .colon3{
+    margin-left: 0.7rem;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.item p{
+    margin: 0.5rem;
+}
+
+img{
+    width: 7rem;
+   
+    height: 7rem;
+    justify-self: flex-end;
+
+}
+.courses{
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+.grid,.grid2,.grid3 p{
+    font-size: 0.8rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap:2px;
+    background-color: var(--green);
+    padding: 1.5px;
+    grid-template-rows: 3rem 25rem;
+    
+}
+.grid .col{
+    padding: 10px;
+    background-color:white;
+color: var(--green);
+
+}
+.col2{
+    grid-column: 2/7; 
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2px;
+    background-color: #1A4D2E;
+   padding: 1px 1.5px;
+    grid-template-rows: 3rem 3rem;
+}
+.grid2 .col{
+    text-align: left;
+    padding: 10px 1px;
+    background-color: white;
+color: #1A4D2E;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+        background-color: var(--green);
+        padding: 1.5px;
+        grid-template-rows: 10rem;
+}
+.grid3 .col>*{
+    position: relative;
+   top:8rem;
+}
+.grid3 .col3>*{
+    position: relative;
+        top: 3rem;
+}
+.grid3 .col2 {
+    grid-column: 2/4;
+}
+.grid3 .col{
+     background-color: white;
+    color: var(--green);
+     text-align: center;
+}
+.pl-3{
+    padding: 5px;
+}
+.bold{
+    font-weight: bold;
+}
+
+
+
